@@ -44,4 +44,4 @@
 <h1>🪲 Known Bugs</h1>
 
 - Slider sometimes a little buggy when holding and not moving
-- Performance issues while dragging when torch is enabled
+- ~~*Performance issues while dragging when torch is enabled*~~ (Temporarily fixed in v1.1: flashlight now only updates after stopping dragging)

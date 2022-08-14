@@ -12,16 +12,24 @@
 <h2>Customize the brightness of your flashlight<br/><br/></h2>
 </div><br/>
 
-<h1>☑️ Requirements</h1>
+<h1>🧩 Features (+Advantages over <a href="https://github.com/takusan23/AndroidTiramisuTorch">Tiramisu Torch</a>)</h1>
+
+- Better QS-Tile
+    - Short click: toggle on/off with last brightness
+    - Long click: open the app to change/reset the brightness
+- Brightness will be saved and restored
+- Clean Material You design (w/ custom Android 12 slider) without any ads etc.
+
+<br/><h1>☑️ Requirements</h1>
 
 - Android 13+
 - Supported Hardware
 
-<h1>⬇️ Download</h1>
+<br/><h1>⬇️ Download</h1>
 
 #### [<span color="#00a6ed"> Latest Version</span>](https://github.com/bennett-sh/TorchPlus/releases/latest)
 
-<h1>📱 Screenshots</h1>
+<br/><h1>📱 Screenshots</h1>
 
     
 <div>
@@ -31,3 +39,9 @@
     </div>
     <img alt="Screenshot of App" src="https://user-images.githubusercontent.com/110846042/184551587-12c38663-dfb5-4e15-a8fa-206bfc6ecde4.png" width=256><br/>
 </div>
+
+<br/><br/>
+<h1>🪲 Known Bugs</h1>
+
+- Slider sometimes a little buggy when holding and not moving
+- Performance issues while dragging when torch is enabled

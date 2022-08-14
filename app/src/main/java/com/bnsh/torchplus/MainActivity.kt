@@ -206,10 +206,10 @@ fun App() {
                     onValueChange = {
                         MainActivity.torchBrightness = it
                         brightness = it
-
-                        if(torchEnabled) updateTorch(cameraManager, cameraId, torchEnabled, context)
                     },
                     onDragEnd = {
+                        if(torchEnabled) updateTorch(cameraManager, cameraId, torchEnabled, context)
+
                         scope.launch {
                             settingsDataStore.setTorchBrightness(it)
                         }

@@ -12,6 +12,22 @@
 <h2>Customize the brightness of your flashlight<br/><br/></h2>
 </div><br/>
 
-<h3>⬇️ Download</h3>
+<h1>☑️ Requirements</h1>
+
+- Android 13+
+- Supported Hardware
+
+<h1>⬇️ Download</h1>
 
 #### [<span color="#00a6ed"> Latest Version</span>](https://github.com/bennett-sh/TorchPlus/releases/latest)
+
+<h1>📱 Screenshots</h1>
+
+    
+<div>
+    <div>
+        <img alt="Screenshot of disabled QS Tile" src="https://user-images.githubusercontent.com/110846042/184551822-0e510d09-0b8d-47cd-9091-42014f234167.png" width="128">
+        <img alt="Screenshot of active QS Tile" src="https://user-images.githubusercontent.com/110846042/184551823-f7f28a42-7363-4248-aa2f-b76c706717be.png" width="128">
+    </div>
+    <img alt="Screenshot of App" src="https://user-images.githubusercontent.com/110846042/184551587-12c38663-dfb5-4e15-a8fa-206bfc6ecde4.png" width=256><br/>
+</div>

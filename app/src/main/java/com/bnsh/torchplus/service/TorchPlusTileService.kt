@@ -8,6 +8,7 @@ import android.content.ComponentName
 import android.content.Context
 import android.graphics.drawable.Icon
 import android.hardware.camera2.CameraManager
+import android.hardware.camera2.CameraManager.TorchCallback
 import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 import androidx.annotation.RequiresApi
@@ -42,13 +43,26 @@ class TorchPlusTileService : TileService() {
         }
     }
 
-
     override fun onCreate() {
         super.onCreate()
 
         MainActivity.torchEnabled = false
 
         cameraMgr = getSystemService(Context.CAMERA_SERVICE) as CameraManager
+
+        cameraMgr.registerTorchCallback(object: TorchCallback() {
+            override fun onTorchModeChanged(cameraId: String, enabled: Boolean) {
+                super.onTorchModeChanged(cameraId, enabled)
+                MainActivity.torchEnabled = enabled
+                updateState()
+            }
+
+            override fun onTorchModeUnavailable(cameraId: String) {
+                super.onTorchModeUnavailable(cameraId)
+                MainActivity.torchEnabled = false
+                updateState()
+            }
+        }, null)
     }
 
 

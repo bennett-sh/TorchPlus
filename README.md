@@ -43,5 +43,6 @@
 <br/><br/>
 <h1>🪲 Known Bugs</h1>
 
+- In-app button out of state sometimes (will fix this next)
 - Slider sometimes a little buggy when holding and not moving
 - ~~*Performance issues while dragging when torch is enabled*~~ (Temporarily fixed in v1.1: flashlight now only updates after stopping dragging)
